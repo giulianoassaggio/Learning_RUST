@@ -31,3 +31,4 @@ Così da aumentarne la leggibilità e la chiarezza
 Le funzioni di rust (come per esempio I/O) spesso hanno come ritorno un enum `{Ok, Err}`
 Gli elementi dell'enum prendono il nome di variants. Il variant `Ok` contiene il valore correttamente generato e indica che l'espressione è stata eseguita con successo. `Err` indica invece che l'operazione è fallita e contiene indicazioni sull'errore.
 È il metodo che rust ha scelto per handle gli errori: ogni Result ritornato ha dei metodi in esso definiti. Per esempio, un istanza di `io::Result` ha il metodo `.expect`. Se viene ritornato un Err, expect farà crashare tutto mostrando a video il messaggio messo in expect
+### Println!
